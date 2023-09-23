@@ -1,0 +1,71 @@
+<div class="flashcard">
+	<div class="front">
+  	<div class="field field--front">
+			<div id="ueberschrift">
+				{{#Lecture}}
+					{{Lecture}}
+					{{#Lecture}}
+						{{#Title}}
+							&nbsp;~ &nbsp;{{Title}}
+						{{/Title}}
+					{{/Lecture}}
+				{{/Lecture}}
+				{{^Lecture}}
+					{{#Title}}
+						{{Title}}
+					{{/Title}}
+				{{/Lecture}}
+			</div>
+		</div>
+		{{#Lecture}}
+ 			<hr class="divider divider-answer">
+		{{/Lecture}}
+		{{^Lecture}}
+			{{#Title}}
+  			<hr class="divider divider-answer">
+			{{/Title}}
+		{{/Lecture}}
+		<div class="field field--front">
+			<div class="inline-block" id="front">
+				<span style="font-weight:normal;">
+					{{cloze::Front}}
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({ 
+			TeX: { 
+				extensions: 
+				[
+				"cancel.js", 
+				"AMScd.js", 
+				"AMSmath.js", 
+				"AMSsymbols.js", 
+				"enclose.js", 
+				"physics", 	
+				"begingroup.js", 
+				]
+			}
+		);
+		MathJax.Hub.Configured();
+</script>
+
+ \(
+\definecolor{r}{RGB}{236, 112, 99	}
+\definecolor{g}{RGB}{143, 185, 140}
+\definecolor{b}{RGB}{133, 193, 233}
+\definecolor{y}{RGB}{209, 199, 136}
+\definecolor{p}{RGB}{210, 180, 222}
+\definecolor{t}{RGB}{115, 198, 182}
+\definecolor{o}{RGB}{240, 178, 122}
+\definecolor{rr}{RGB}{192, 57, 43}
+\definecolor{gg}{RGB}{34, 153, 84}
+\definecolor{bb}{RGB}{41, 128, 185}
+\definecolor{yy}{RGB}{212, 172, 13}
+\definecolor{pp}{RGB}{136, 78, 160}
+\definecolor{tt}{RGB}{19, 141, 117}
+\definecolor{oo}{RGB}{202, 111, 30}
+\) 

@@ -1,0 +1,294 @@
+<script>qFade=0; if (typeof anki !== 'undefined') anki.qFade=qFade;</script>
+
+
+
+<div class="flashcard">
+  <div class="field field--front">
+		 <div id="term">
+			{{Term}}{{Audio}}
+		</div>
+  </div>
+	{{#Context1}}
+  	<hr class="divider divider-answer"/>
+	{{/Context1}}
+	<div class="field field--front">
+		{{#Context1}}
+			<div class="inline-block">
+				<div id="context">
+					{{#Context1}}
+						<div class="flex-container">
+							<div>
+								<div id="enum">
+									⟨1⟩
+								</div>
+							</div>
+							<div>
+								<span style="font-weight:normal;">
+									{{edit::Context1}}
+								</span>
+							</div>
+						</div>
+					{{/Context1}}
+					{{#Context2}}
+						<div class="flex-container">
+							<div>
+								<div id="enum">
+									⟨2⟩
+								</div>
+							</div>
+							<div>
+								<span style="font-weight:normal;">
+									{{edit::Context2}}
+								</span>
+							</div>
+						</div>
+					{{/Context2}}
+					{{#Context3}}
+						<div class="flex-container">
+							<div>
+								<div id="enum">
+									⟨3⟩
+								</div>
+							</div>
+							<div>
+								<span style="font-weight:normal;">
+									{{edit::Context3}}
+								</span>
+							</div>
+						</div>
+					{{/Context3}}
+					{{#Context4}}
+						<div class="flex-container">
+							<div>
+								<div id="enum">
+									⟨4⟩
+								</div>
+							</div>
+							<div>
+								<span style="font-weight:normal;">
+									{{edit::Context4}}
+								</span>
+							</div>
+						</div>
+					{{/Context4}}
+				</div>
+			</div>
+		{{/Context1}}
+		{{^Context1}}
+			{{#Context2}}
+				<div class="inline-block">
+					<div id="context">
+						{{#Context1}}
+							<div class="flex-container">
+								<div>
+									<div id="enum">
+										⟨1⟩
+									</div>
+								</div>
+								<div>
+									<span style="font-weight:normal;">
+										{{edit::Context1}}
+									</span>
+								</div>
+							</div>
+						{{/Context1}}
+						{{#Context2}}
+							<div class="flex-container">
+								<div>
+									<div id="enum">
+										⟨2⟩
+									</div>
+								</div>
+								<div>
+									<span style="font-weight:normal;">
+										{{edit::Context2}}
+									</span>
+								</div>
+							</div>
+						{{/Context2}}
+						{{#Context3}}
+							<div class="flex-container">
+								<div>
+									<div id="enum">
+										⟨3⟩
+									</div>
+								</div>
+								<div>
+									<span style="font-weight:normal;">
+										{{edit::Context3}}
+									</span>
+								</div>
+							</div>
+						{{/Context3}}
+						{{#Context4}}
+							<div class="flex-container">
+								<div>
+									<div id="enum">
+										⟨4⟩
+									</div>
+								</div>
+								<div>
+									<span style="font-weight:normal;">
+										{{edit::Context4}}
+									</span>
+								</div>
+							</div>
+						{{/Context4}}
+					</div>
+				</div>
+			{{/Context2}}
+		{{/Context1}}
+		{{^Context1}}
+			{{^Context2}}
+				{{#Context3}}
+					<div class="inline-block">
+						<div id="context">
+							{{#Context1}}
+								<div class="flex-container">
+									<div>
+										<div id="enum">
+											⟨1⟩
+										</div>
+									</div>
+									<div>
+										<span style="font-weight:normal;">
+											{{edit::Context1}}
+										</span>
+									</div>
+								</div>
+							{{/Context1}}
+							{{#Context2}}
+								<div class="flex-container">
+									<div>
+										<div id="enum">
+											⟨2⟩
+										</div>
+									</div>
+									<div>
+										<span style="font-weight:normal;">
+											{{edit::Context2}}
+										</span>
+									</div>
+								</div>
+							{{/Context2}}
+							{{#Context3}}
+								<div class="flex-container">
+									<div>
+										<div id="enum">
+											⟨3⟩
+										</div>
+									</div>
+									<div>
+										<span style="font-weight:normal;">
+											{{edit::Context3}}
+										</span>
+									</div>
+								</div>
+							{{/Context3}}
+							{{#Context4}}
+								<div class="flex-container">
+									<div>
+										<div id="enum">
+											⟨4⟩
+										</div>
+									</div>
+									<div>
+										<span style="font-weight:normal;">
+											{{edit::Context4}}
+										</span>
+									</div>
+								</div>
+							{{/Context4}}
+						</div>
+					</div>
+				{{/Context3}}
+			{{/Context2}}
+		{{/Context1}}
+		{{^Context1}}
+			{{^Context2}}
+				{{^Context3}}
+					{{#Context4}}
+						<div class="inline-block">
+							<div id="context">
+								{{#Context1}}
+									<div class="flex-container">
+										<div>
+											<div id="enum">
+												⟨1⟩
+											</div>
+										</div>
+										<div>
+											<span style="font-weight:normal;">
+												{{edit::Context1}}
+											</span>
+										</div>
+									</div>
+								{{/Context1}}
+								{{#Context2}}
+									<div class="flex-container">
+										<div>
+											<div id="enum">
+												⟨2⟩
+											</div>
+										</div>
+										<div>
+											<span style="font-weight:normal;">
+												{{edit::Context2}}
+											</span>
+										</div>
+									</div>
+								{{/Context2}}
+								{{#Context3}}
+									<div class="flex-container">
+										<div>
+											<div id="enum">
+												⟨3⟩
+											</div>
+										</div>
+										<div>
+											<span style="font-weight:normal;">
+												{{edit::Context3}}
+											</span>
+										</div>
+									</div>
+								{{/Context3}}
+								{{#Context4}}
+									<div class="flex-container">
+										<div>
+											<div id="enum">
+												⟨4⟩
+											</div>
+										</div>
+										<div>
+											<span style="font-weight:normal;">
+												{{edit::Context4}}
+											</span>
+										</div>
+									</div>
+								{{/Context4}}
+							</div>
+						</div>
+					{{/Context4}}
+				{{/Context3}}
+			{{/Context2}}
+		{{/Context1}}
+	</div>
+</div>
+
+<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({ 
+			TeX: { 
+				extensions: 
+				[
+				"cancel.js", 
+				"AMScd.js", 
+				"AMSmath.js", 
+				"AMSsymbols.js", 
+				"enclose.js", 
+				"physics", 	
+				"begingroup.js", 
+				]
+			}
+		);
+		MathJax.Hub.Configured();
+</script>

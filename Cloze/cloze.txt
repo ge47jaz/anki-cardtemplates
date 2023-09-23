@@ -1,0 +1,10 @@
+you'll need to have the following fields: 
+Front
+Back
+Image
+Lecture
+Title
+
+Insert the html from front.html into the "Front Template" Section
+back.html into the "Back Template" Section
+and the styling.css into the "Styling" Section of the Card Template Editor

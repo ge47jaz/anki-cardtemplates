@@ -1,0 +1,17 @@
+you'll need to have the following fields: 
+Term
+Synonyms
+Definition1
+Context1
+Definition2
+Context2
+Definition3
+Context3
+Definition4
+Context4
+Image
+Audio
+
+Insert the html from front.html into the "Front Template" Section
+back.html into the "Back Template" Section
+and the styling.css into the "Styling" Section of the Card Template Editor
