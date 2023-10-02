@@ -1,2 +1,2 @@
 # anki-cardtemplates
-some card templates for Anki (javascript + css formatting)
+some card templates for Anki (html + css formatting)
